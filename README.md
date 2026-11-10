@@ -29,25 +29,27 @@
 - **Frontend & Styling:** [Tailwind CSS](https://tailwindcss.com/) (via CDN)
 - **Manajemen Sesi:** Native File-based Session Driver (`SESSION_DRIVER=file`)
 
-## Struktur Utama Project
+## 📂 Struktur Utama Project
+
+```text
 UTS_PWEB_252410103056/
 ├── app/
 │   └── Http/
 │       └── Controllers/
-│           └── PageController.php     
+│           └── PageController.php
 ├── public/
 │   └── images/
-│       └── posters/                    
+│       └── posters/
 ├── resources/
 │   └── views/
-│       ├── components/              
+│       ├── components/
 │       │   ├── navbar.blade.php
 │       │   └── footer.blade.php
-│       ├── layouts/                   
+│       ├── layouts/
 │       │   └── app.blade.php
-│       ├── dashboard.blade.php      
-│       ├── login.blade.php            
-│       ├── pengelolaan.blade.php       
-│       └── profile.blade.php         
+│       ├── dashboard.blade.php
+│       ├── login.blade.php
+│       ├── pengelolaan.blade.php
+│       └── profile.blade.php
 └── routes/
-    └── web.php                       
+    └── web.php               
